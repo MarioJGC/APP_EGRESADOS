@@ -1,0 +1,15 @@
+.elegant-heading {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient-animation 3s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0 50%; }
+    100% { background-position: 100% 50%; }
+}
